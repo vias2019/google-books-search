@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Content from "./components/Content";
-import Result from "./components/Result";
+//import Result from "./components/Result";
 import Save from "./components/Save";
 import ResultList from "./components/ResultList";
 
