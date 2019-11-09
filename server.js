@@ -4,6 +4,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 var mongoose = require("mongoose");
 var Book = require("./Schema");
+require('dotenv').config();
 
 mongoose.connect((process.env.MONGODB_URI || "mongodb://localhost/userdb" || "mongodb://vias2019:" + process.env.dbpassword + "@ds241278.mlab.com:41278/heroku_rxjh7k9v"), 
 
